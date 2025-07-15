@@ -1,0 +1,17 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore notebook checkpoints (if you used Colab or Jupyter)
+.ipynb_checkpoints/
+
+# Optional: Ignore output .txt files if you don't want to track them in Git
+# *.txt
